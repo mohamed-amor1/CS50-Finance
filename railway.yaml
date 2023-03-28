@@ -1,0 +1,8 @@
+name: my-flask-app
+env: python3.8
+build_command: pip install -r requirements.txt
+start_command: python app.py
+routes:
+  - path: /
+    command: python app.py
+    port: $PORT
