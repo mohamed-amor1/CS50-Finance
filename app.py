@@ -15,7 +15,7 @@ from helpers import apology, login_required, lookup, usd, validate_password
 
 # Configure application
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///C:/Users/Mohamed/Desktop/COMPUTER SCIENCE/cs50/CS50x/week-9-flask/finance/finance.db'
+app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///finance.db'
 
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db = SQLAlchemy(app)
