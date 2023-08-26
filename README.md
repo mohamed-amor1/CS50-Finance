@@ -2,7 +2,7 @@
 C$50 Finance
 
 <p align="center">
-  <img src="[https://your-image-url.com/your-image.png](https://cs50.harvard.edu/x/2023/psets/9/finance/finance.png)" alt="App Logo">
+  <img src="https://cs50.harvard.edu/x/2023/psets/9/finance/finance.png" alt="App Logo">
 </p>
 
 # C$50 Finance Web Application
